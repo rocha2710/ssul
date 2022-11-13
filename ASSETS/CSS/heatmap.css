@@ -1,3 +1,8 @@
+#addIcones {
+position: absolute;
+top:0;
+left:10;
+}
 #layoutSr { 
 background-image: url("../IMG/layoutSerraSul.jfif");
 background-color: #000;
@@ -11,7 +16,7 @@ width:100px;
 height:100px;
 }
 
-.esconder {
+.esconde {
   display:none;
 }
 
