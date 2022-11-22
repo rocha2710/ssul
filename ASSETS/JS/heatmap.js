@@ -20,7 +20,7 @@ $(document).ready(function () {
         switch (data.ic) {
             //capacete
             case "capacete":
-                $( "<img src='./ICONES/capacete.png' width='100' height='100' class='capaceteIco' width='100' height='100' class='NCAMenIco'/>" ).appendTo( "#layoutSr");
+                $( "<img src='./ICONES/capacete.png' width='100' height='100' class='capaceteIco' width='100' height='100' class='NCAMenIco' title='teste de tooltip'/>" ).appendTo( "#layoutSr");
                 $( ".capaceteIco" ).draggable().on("click", {ref:"capacete"}, escondeTudo).on("dblclick", mostraTudo);
                 break;
             //NCAmbientalMenor
